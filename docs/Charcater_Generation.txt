@@ -1,0 +1,49 @@
+In days of ancient history, say 1978, a young man played a game called "Traveller" (TM). Witten by Marc Miller, played by thousands, Traveller is a science fiction game of adventure in the far future. 
+
+Much fun was had creating characters and going from star system to star system. Characters were generated through a process of tables and could often die if the dice were rolling bad. If they lived they were free to acquire equipment, board or buy star ships, and bring the players much fun. 
+
+What was highly interesting about Travller is its ability to offer itself to programming. Dice were always 6 sided and you generally rolled 1 or 2. Here's an example of the character cretion process, in some detail. Tables are discussed but left out. Game standards are preserved, except where we skip things like death. Roll conventions are short-hand; 2d6 means "roll two six sided die and add them" and "1d6+1" means "roll one six sided die and add one to the roll".
+
+Roll 2d6 for each of six stats: Strengh, Dexterity, Endurance, Intelligence, Education, and Social Status. These are listed in that order and appreviated: Str Dex End Int Edu Soc. While the rills can be from 2-12 the stats can be lowered due to age or injury or increased due to training. Stats are hexidecimal numbers, 0-15.
+
+Choose a career path. Usually Scouts, Merchants, Navy, Marines, or the Army. House rules might add other paths. In each career you sign up for a 4 year term and have the chance to raise your stats, gain skills, earn rank, and accrue benefit rolls. 
+
+Most careers have "Enlisted" and "Officer" branches, and a set of tables to roll for skills from. Each table has 6 options and the list of tables a character can choose from varies by career, career specialty, rank, and sometimes a stat. Depending on the table chosen the roll might be modified by a stat or rank. The character evaluates what tables they can choose from and then rolls on a particular table. They apply and dice modifications to the roll and gain that skills. 
+
+Here's an example of skill tables:
+
+       Navy Life     Navy Enlisted     Navy Officer
+DM:    +1 Edu 8+     +1 Rank E4+       +1 Soc A+
+       =========     =============     ============
+
+1       +1 Str       Mech               Carousing
+2       +1 Dex       GunCbt             +1 Soc
+3       Brawling     Engineering        Leadership
+4       Carousing    Drive              Pilot
+5       Blade        Mech               Admin
+6       GunCbt       Engineering        Navigation 
+7       +1 End       Leadership         Sensors
+
+
+You pick a table, roll 1d6, add the dice modifier (DM) if appropriate, and see what you get. Some rolls modify stats and some skills "cascade". A cascade skill means there are several sub-sections and you choose one. For example, "GunCbt" cascades to "Energy pistol, Energy Rifle, Slug thrower, shotgun". Each time the same skill is chosen it gets an additional +1 modifier. 
+
+Characters can get commendations or medals for valor, and when they muster out of the service they can get a variety of cash awards, stat increases, or other benefits. If they remain in the service for a long time they must roll against age related stat decreases. 
+
+Here's a sample character:
+
+Harald Leifson, 884388
+Navy, 4 terms 
+Brawling 2, Mechanical 1, Engineering 1
+MCUF 1
+Cr 30,000
+Blade
+
+Harald is pretty good in a quick fight but something hurts his endurance. None to bright, Harald was in the Navy for 16 years where he learned to fight and do basic ship maintenance tasks. Harlad has courage though, and acted well enough to recieve the "Meritorious Conduct Under Fire" (MCUF) award. Similar to the modern "With Valor" distinction. He has 30,000 credits and a bladed weapon as a parting gift. 
+
+Harald is 34 years old and must roll on the aging tables. Otherwise he's ready to see what the stars have for him. 
+
+
+
+Notes:
+
+The Traveller game in all forms is owned by Far Future Enterprises. Copyright 1977 - 2014 Far Future Enterprises.
