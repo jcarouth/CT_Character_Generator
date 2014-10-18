@@ -1,23 +1,42 @@
 #### Character.rb
 class Character
-  def initialize(gender, career, skills)
-    @gender = gender
-    @career = career
-    @skills = skills
+  def initialize()
+    @gender = ''
+    @career = ''
 
-  @stats = Hash.new
-  @stats = {
-    'Str' => nil,
-    'Dex' => nil,
-    'End' => nil,
-    'Int' => nil,
-    'Edu' => nil,
-    'Soc' => nil
-    }
+    @skills = Hash.new
+    @stats = Hash.new
+    @stats = {
+      'Str' => nil,
+      'Dex' => nil,
+      'End' => nil,
+      'Int' => nil,
+      'Edu' => nil,
+      'Soc' => nil
+      }
 
-  @upp = ''
-  @stat_names = %w(Str Dex End Int Edu Soc)
+    @upp = ''
+    @stat_names = %w(Str Dex End Int Edu Soc)
+    @stat_mods = Hash.new
+    @stat_names.each do |stat|
+      @stat_mods[stat] = nil
+    end
+  end
 
+  def set_gender(g)
+    @gender = g
+  end
+
+  def get_gender
+    return @gender
+  end
+
+  def set_career(c)
+    @career = c
+  end
+
+  def get_career
+    return @career
   end
 
   def set_stat(stat, num)
